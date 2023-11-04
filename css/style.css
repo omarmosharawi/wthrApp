@@ -1,0 +1,88 @@
+body{
+    font-family: 'Almarai', sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    background-color: #ffffff;
+    background-image: url("https://images.pexels.com/photos/912364/pexels-photo-912364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin-right:3% ;
+}
+
+
+#cityDiv{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type='text']{
+    height: 40px;
+    font-size: 20px;
+}
+
+#submitCity{
+    height: 40px;
+    font-weight: bold;
+    background-color: aqua;
+}
+
+#errorCity{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+#showWeather{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(0, 255, 242);
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
